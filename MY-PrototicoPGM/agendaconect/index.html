@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Conect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+</head>
+<body>
+    <header>
+        <nav class="navbar navPai">
+            <div>
+                <img class="navbar-brand" src="assets/img/logo-conect.png" alt="Capa">
+            </div>
+            <div class="nav__item">
+                <h2>SALA DE REUNIÕES</h2>
+            </div>
+            <div>
+                <i class="bi bi-x"> Fechar</i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid text-center">
+            <div class="row row-cols-1">
+                <div class="col Column">
+                    <div class="Column__perfil">
+                        <img class="column__img" src="assets/img/perfilMarcosjpg.jpg" alt="Marcos">
+                        <h2>Marcos</h2>
+                        <p>Tech Leads</p>
+                    </div>
+                    
+                </div>
+                <div class="col Column01">
+                <div class="row">
+                    <div class="col container_esquerdo column01__titulo"><h4>FEEDBACK</h4>
+                        <div class="notificacoes">
+                            <i class="bi bi-person-circle">  'Gostei muito da reunião'</i>
+                            <div class="column01__usuario">
+                                <p>Ana Luiza</p>
+                                <a href="#">Visualizar</a>
+                            </div>
+                        </div>
+                        <div class="notificacoes__meio">
+                            <i class="bi bi-person-circle">  'Vocé poderia menos...'</i>
+                            <div class="column01__usuario">
+                                <p>Lucas</p>
+                                <a href="#">Visualizar</a>
+                            </div>
+                        </div>
+                        <div class="notificacoes">
+                            <i class="bi bi-person-circle">  'Marcos preciso que...'</i>
+                            <div class="column01__usuario">
+                                <p>Sara Sousa</p>
+                                <a href="#">Visualizar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col container_direito">
+                        <h4 class="column01__titulo">NOTIFICAÇÕES</h4>
+                        <div class="notificacoes">
+                            <i class="bi bi-person-circle">  Assunto </i>
+                            <button type="button" class="btn btn-success column01__botao">Aceitar</button>
+                            <button type="button" class="btn  column01__botaoE">Recusar</button>
+                            <button type="button" class="btn  column01__botaoR">Reagendar</button>
+                        </div>
+                    </div>
+                    <div class="calendar">
+                        <div class="">
+                          <span class="month-picker justify-content-center"><h2>MAIO</h2>  </span>
+                          <div class="year-picker" id="year-picker">
+                            <span class="year-change" id="pre-year">
+                              <pre></pre>
+                            </span>
+                            <span class="year-change" id="next-year">
+                            </span>
+                          </div>
+                        </div>
+                        <div class="justify-content-center">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">SEG | 24/05</th>
+                                    <th scope="col">TER | 25/05</th>
+                                    <th scope="col">QUA | 26/05</th>
+                                    <th scope="col">QUI</th>
+                                    <th scope="col">SEX</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-bg-dark">Assunto - 8:00</td>
+                                    <td></td>
+                                    <td class="text-bg-dark">@Assunto - 8:00</td>
+                                    <td>@Assunto - 8:00</td>
+                                    <td class="text-bg-dark">@Assunto - 8:00</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="text-bg-dark">@Assunto - 11:00</td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-bg-dark">Assunto - 13:00</td>
+                                    <td class="text-bg-dark">@Assunto - 13:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="text-bg-dark">@Assunto - 9:00</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-bg-dark">Assunto - 16:00</td>
+                                    <td class="text-bg-dark">@Assunto - 16:00</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="text-bg-dark">@Assunto - 13:00</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col Column02">
+                <h4 class="mt-4" >MEU TIME</h4>
+                <div class="align-pdi">
+                    </div>
+                    <div class="box-pdi">
+                        <h2 class="style_h2">Ana Luiza</h2>
+                        <p class="style_p">Estagiaria</p>
+                        <h5 class="style_h5">PDI</h5>
+                        <div class="barra-verde">50%</div>
+                        <div class="barra-branca"></div>
+                        <a class="style_a" href="#">FEEDBACK</a>
+                        <a class="cursor  style_a1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@mdo">AGENDAR<a>
+                            
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Criar nova reunião</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <p>Data</p>
+                        <input type="date" name="" id="">
+                        <p>Hora de ínicio </p>
+                        <input type="tel" required placeholder="08:00" list="hora-inicio">
+                        <datalist id="hora-inicio">
+                            <option value="08:00">
+                            <option value="08:30">
+                            <option value="09:00">
+                            <option value="09:30">
+                            <option value="10:00">
+                            <option value="10:30">
+                            <option value="14:00"> 
+                            <option value="14:30">
+                            <option value="15:00">
+                            <option value="15:30">
+                            <option value="16:00">
+                        </datalist>
+                    </form>
+                    <p>Término</p>
+                    <input required placeholder="09:00" list="hora-fim">
+                    <datalist id="hora-fim">
+                        <option value="08:00">
+                        <option value="08:30">
+                        <option value="09:00">
+                        <option value="09:30">
+                        <option value="10:00">
+                        <option value="10:30">
+                        <option value="14:00"> 
+                        <option value="14:30">
+                        <option value="15:00">
+                        <option value="15:30">
+                        <option value="16:00">
+                    </datalist>
+                    <p>Assunto:</p>
+                    <input type="text" name="" id="">
+                </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class=" cursor  text-white btn text-bg-dark">Marcar Reunião</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer></footer>
+    <script src="calendario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+  </body>
+</body>
+</html>
